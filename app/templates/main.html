@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DownloadFromURL</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+  </head>
+  <body>
+    <h1>Enter url to get resources to download</h1>
+    <form>
+      <label for="url">Enter a URL:</label>
+      <input type="text" id="url" name="url">
+      <button type="button" id="submit">scan resources</button>
+    </form>
+    <script src="{{url_for('static',filename='js/main.js')}}"></script>
+  </body>
+</html>
