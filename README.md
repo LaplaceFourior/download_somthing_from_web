@@ -15,7 +15,7 @@ This is a project that will help you download files from a url
 - [License](#license)
 
 ## Install
-Before you start to install this project, make sure that you have installed git in your computer.
+Before you start to install this project, make sure that you have installed [git](https://git-scm.com/download) in your computer.
 
 use this command to get the source code to your computer:
 
@@ -26,11 +26,12 @@ git clone https://github.com/LaplaceFourior/download_somthing_from_web.git
 You will run this project with source code.
 ## Usage
 
+
+(1) This project is based on [Python 3.10](https://www.python.org/downloads/release/python-3100/). Before you start to install, make sure that you have already installed Python 3.10.
+
+(2) If you have already installed Python 3.10, you can run this project with:
+
 ### For  Windows
-This project is based on [Python 3.10](https://www.python.org/downloads/release/python-3100/). Before you start to install, make sure that you have already installed Python 3.10.
-
-If you have already installed Python 3.10, you can run this project with:
-
 >double click [start.bat](./start.bat)
 
 or
@@ -39,8 +40,14 @@ or
 ```
     ./start.bat
 ```
-the start.bat script will build a venv in the root folder and install the required package with [requirements.txt](./requirements.txt).
-Then it will start a web application 
+### For macos or linux
+>cd the project root folder, open a terminal and run: 
+```
+    ./start.sh
+```
+the start script will build a venv in the root folder and install the required package with [requirements.txt](./requirements.txt).
+
+(3)Then it will start a web application 
 
 <img src="./assets/start.png" />
 
