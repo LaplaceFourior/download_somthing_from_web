@@ -1,6 +1,6 @@
 # download_somthing_from_web
 
-[![license](https://img.shields.io/badge/license-MIT-red)](./LICENSE)
+[![license](https://img.shields.io/badge/license-MIT-red)](LICENSE)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 [![python3.10](https://img.shields.io/badge/python-3.10-brightgreen)](https://www.python.org/downloads/release/python-3100/)
 
@@ -9,12 +9,21 @@
 This is a project that will help you download files from a url
 
 ## Table of Contents
-
+- [Install](#install)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
+## Install
+Before you start to install this project, make sure that you have installed git in your computer.
 
+use this command to get the source code to your computer:
+
+```
+git clone https://github.com/LaplaceFourior/download_somthing_from_web.git
+```
+
+You will run this project with source code.
 ## Usage
 
 ### For  Windows
