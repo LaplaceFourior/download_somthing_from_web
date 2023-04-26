@@ -9,3 +9,4 @@ if __name__ == "__main__":
     app.logger.addHandler(handler)
 
     app.run(debug=True)
+    app.do_teardown_appcontext()

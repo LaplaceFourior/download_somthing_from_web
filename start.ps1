@@ -16,7 +16,7 @@ $installed_packages = pip freeze
 $missing_packages = $required_packages | Where-Object { $_ -notin $installed_packages }
 if ($missing_packages) {
     Write-Host "Installing required packages..."
-    pip install -r requirements.txt
+    pip install -r requirements/Win.txt
 } else {
     Write-Host "Required packages already installed."
 }
